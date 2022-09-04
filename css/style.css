@@ -41,7 +41,7 @@ button {
   border-radius: 15px;
   box-sizing: border-box;
   color: #96979c;
-  font-size: 1rem;
+  font-size: 1.05rem;
   overflow: auto;
   transition: 0.4s ease all;
   margin-right: 7px;
@@ -65,7 +65,7 @@ button:hover {
 .header-section {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   flex-wrap: wrap;
 }
 
@@ -142,21 +142,26 @@ a:hover {
   position: relative;
   width: 300px;
   height: 300px;
-  margin: 0 0 10px 0;
-  border-radius: 50%;
+  /*Mess around with margin to change spacing in Name/affiliation and Image block*/
+  margin: 0 0 -37px 124px;
+  /*For round/circle below: 50%, for square: 0%*/
+  border-radius: 0%;
   overflow: hidden;
 }
 .img-frame img {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  /*Mess around with transform to augment image spacing/padding with footer line*/
+  /*transform: translate(-34%, -55%);*/
+  transform: translate(-34%, -55%);
   height: 100%;
 }
 
 .links {
-  margin: 25px 0;
+  margin: 0 0;
+  font-size: 18px;
 }
 .links a:not(:last-child) {
   padding: 0 16px 0 0;
@@ -225,6 +230,7 @@ a:hover {
   font-size: 0.75em;
   color: #999;
   border-top: 1px solid #f4f4f4;
+  width: 100%;
   padding: 6px 0;
   margin-top: 25px;
 }
