@@ -36,12 +36,12 @@ button.dark-mode button {
 
 button {
   width: 135px;
-  height: 30px;
+  height: 32px;
   border: 2px solid #96979c;
   border-radius: 15px;
   box-sizing: border-box;
   color: #96979c;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   overflow: auto;
   transition: 0.4s ease all;
   margin-right: 7px;
@@ -143,7 +143,7 @@ a:hover {
   width: 300px;
   height: 300px;
   /*Mess around with margin to change spacing in Name/affiliation and Image block*/
-  margin: 0 0 -37px 124px;
+  margin: 0 0 1rem 7.78rem;
   /*For round/circle below: 50%, for square: 0%*/
   border-radius: 0%;
   overflow: hidden;
@@ -154,7 +154,7 @@ a:hover {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   /*Mess around with transform to augment image spacing/padding with footer line*/
-  /*transform: translate(-34%, -55%);*/
+  /*transform: translate(-50%, -55%);*/
   transform: translate(-34%, -55%);
   height: 100%;
 }
